@@ -10,9 +10,58 @@
     line-height: 24px;
     width: 500px;
     margin: 20px;
+    float: left
 }
 .noticia h1{
     color: #c4170c;
     font-family: "Helvetica Neue", Arial, sans-serif;
     margin: 8px
+}
+.imagem{
+    float:left;
+    width: 200px;
+    padding: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+
+    border: 3px solid #333;
+    padding: 5px;
+    margin: 5px;
+
+    background-color: white;
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
 }
