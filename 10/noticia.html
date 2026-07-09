@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        background: #e8ecef;
+    }
+
+    .topo{
+        background: #00897b;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    main{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    .card{
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    }
+
+    .card header{
+        color: #00897b;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .card img{
+        width: 150px;
+        height: 100px;
+        float: right;
+        margin-left: 15px;
+        border-radius: 8px;
+    }
+
+    .card h2{
+        font-size: 22px;
+        margin-bottom: 10px;
+
+    }
+
+
+    .card p{
+        text-align: justify;
+        line-height: 1.6;
+    }
+
+    .card footer{
+        clear: both;
+        margin-top: 20px;
+        border-top: 1px solid #ddd;
+        padding-top: 10px;
+        color: grey;
+        font-size: 14px;
+    }
+        
+</style>
+
+
+</head>
+<body>
+    
+    <header class="topo">
+        <h1>Portal de Noticia</h1>
+    </header>
+
+    <main>
+
+        <article class="card">
+            <header>
+                <h3>Resgate</h3>
+            </header>
+    <img src="imagens/imagem6.png">
+
+    <h2>Pessoas em situações de guerras foram salvas</h2>
+    <p>Ao longo dos meus anos como reporter e investigador de crises de guerra, muitas vexes fico pasmo com as pessoas que encontro e que sobrevivem as guerras</p>
+    <footer>
+        Publicado em: XX/XX/XXXX
+    </footer>
+        </article>
+
+        <article class="card">
+            <header>
+                <h3>Temporais</h3>
+            </header>
+            <img src="imagens/imagem7.png">
+
+            <h2>Tempos chuvosos</h2>
+            <p>Embora as chuvas intensas sejam fenomenos naturais impulsionados por dinamicas oceanicas e atmosfericas (como frentes frias e o aqucimento de oceanos)</p>
+
+
+            <footer>
+                Publicado em XX/XX/XXXX
+            </footer>
+        </article>
+
+
+        <article class="card">
+            <header>
+                <h3>Tempos Antigos</h3>
+            </header>
+
+            <img src="imagens/imagem8.png">
+
+
+            <h2>Como era antigamente?</h2>
+
+            <p>
+                Antigamente, a vida tinha um ritmo mais lente=o e dependia muito mais do trabalho manual e do contato comunitario. Sem tecnologia digital
+
+            </p>
+
+            <footer>
+                Publicado em XX/XX/XXXX
+            </footer>
+        </article>
+
+        <article class="card">
+
+            <header>
+                <h3>Infancia</h3>
+            </header>
+
+            <img src="imagens/imagem9.png">
+
+            <h2>Como era bom brincar ainda criança ne?</h2>
+
+            <p>
+                Tenho lembranças da minha infancia como pequenos tesouros guardados em um baú dourado, Recordo-me do frescor das tardes
+            </p>
+
+            <footer>
+                Publicado em XX/XX/XXXX
+            </footer>
+        </article>
+    </main>
+</body>
+</html>
